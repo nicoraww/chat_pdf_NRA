@@ -18,7 +18,7 @@ st.markdown("""
   h1 { color: #2c3e50; }
   h2, h3, h4 { color: #34495e; }
   /* Inputs y textareas */
-  .stTextArea textarea, .stTextInput input { background-color: #ffffff !important; color: #000000 !important; border: 1px solid #ced4da !important; border-radius: 4px !important; padding: 0.5rem !important; }
+  .stTextArea textarea, .stTextInput input { background-color: #000000 !important; color: #000000 !important; border: 1px solid #ced4da !important; border-radius: 4px !important; padding: 0.5rem !important; }
   /* Botones destacados */
   .stButton > button {
     background-color: #3498db !important;
