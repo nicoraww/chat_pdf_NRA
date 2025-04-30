@@ -14,7 +14,7 @@ st.markdown("""
 <style>
   /* Fondo blanco y texto siempre negro */
   body, html, .block-container, .stApp, .stSidebar, p, span, div, h1, h2, h3, h4, h5, h6, label {
-    background-color: #ffffff !important;
+    background-color: #454545 !important;
     color: #000000 !important;
   }
   /* Inputs y textareas */
