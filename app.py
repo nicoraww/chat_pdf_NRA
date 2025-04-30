@@ -34,6 +34,35 @@ st.markdown("""
   .stSidebar { background-color: #ecf0f1 !important; }
   /* Tags de keywords */
   .keyword-tag { display: inline-block; background-color: #ffeaa7; color: #2d3436; padding: 0.25rem 0.5rem; margin: 0.25rem; border-radius: 4px; font-size: 0.9rem; }
+  /* Alertas (warning, info, error, success) texto en negro */
+  div[data-testid="stError"] *, div[data-testid="stWarning"] *, div[data-testid="stInfo"] *, div[data-testid="stSuccess"] * {
+    color: #000000 !important;
+  }
+</style>
+""", unsafe_allow_html=True)
+<style>
+  /* Fondo limpio y tipografía moderna */
+  body, html, .block-container { background-color: #fefefe !important; color: #000000 !important; }
+  /* Encabezados */
+  h1 { color: #2c3e50; }
+  h2, h3, h4 { color: #34495e; }
+  /* Inputs y textareas */
+  .stTextArea textarea, .stTextInput input { background-color: #ffffff !important; color: #000000 !important; border: 1px solid #ced4da !important; border-radius: 4px !important; padding: 0.5rem !important; }
+  /* Botones destacados */
+  .stButton > button {
+    background-color: #3498db !important;
+    color: #ffffff !important;
+    border-radius: 6px !important;
+    padding: 0.6rem 1.2rem !important;
+    font-size: 1rem !important;
+  }
+  .stButton > button:hover {
+    background-color: #2980b9 !important;
+  }
+  /* Sidebar */
+  .stSidebar { background-color: #ecf0f1 !important; }
+  /* Tags de keywords */
+  .keyword-tag { display: inline-block; background-color: #ffeaa7; color: #2d3436; padding: 0.25rem 0.5rem; margin: 0.25rem; border-radius: 4px; font-size: 0.9rem; }
 </style>
 """, unsafe_allow_html=True)
 
