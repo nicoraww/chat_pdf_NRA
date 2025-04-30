@@ -12,12 +12,27 @@ import platform
 # Estilos minimalistas
 st.markdown("""
 <style>
-  body { background-color: #ffffff; color: #000000; }
-  .block-container { background: #ffffff; border-radius: 8px; padding: 2rem; max-width: 800px; margin: auto; }
-  h1, h2, h3, h4, label { color: #000000; }
-  .stTextArea textarea, .stTextInput input { background-color: #ffffff; color: #000000; border: 1px solid #ccc; }
-  .stButton > button { background-color: #000000; color: #ffffff; border-radius: 4px; padding: 0.5rem 1rem; }
-  .stButton > button:hover { background-color: #333333; }
+  /* Fondo blanco y texto siempre negro */
+  body, html, .block-container, .stApp, .stSidebar, p, span, div, h1, h2, h3, h4, h5, h6, label {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+  /* Inputs y textareas */
+  .stTextArea textarea, .stTextInput input {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid #ccc !important;
+  }
+  /* Botones */
+  .stButton > button {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border-radius: 4px !important;
+    padding: 0.5rem 1rem !important;
+  }
+  .stButton > button:hover {
+    background-color: #333333 !important;
+  }
 </style>
 """, unsafe_allow_html=True)
 
